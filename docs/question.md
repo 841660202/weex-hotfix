@@ -3,7 +3,7 @@
  * @Author: hailong.chen
  * @Date: 2019-10-06 13:40:31
  * @LastEditors: hailong.chen
- * @LastEditTime: 2019-10-07 15:49:29
+ * @LastEditTime: 2019-10-07 15:55:29
  * @Descripttion: 
  -->
 1. 文档错误 text-align:center；写错了
@@ -32,7 +32,7 @@ open ./platforms/android/eeuiApp/app/build/outputs/apk/release/
 ## 热修复包
 
  * (手动压缩，然后解压，看不出来变化，完全一致，但到手机上，查看文件管理)
-![avatar](./doc/imges/hot-mobile-package.jpg)
+![avatar](./imges/hot-mobile-package.jpg)
 
 * 创建hot.sh
 
@@ -59,7 +59,7 @@ cd ../
 
 * 执行 $ sh hot.sh
 
-![avatar](./doc/imges/hot-zip.png)
+![avatar](./imges/hot-zip.png)
 
 
 * 将热更新zip下的data.zip上传到 console.eeui
@@ -67,7 +67,7 @@ cd ../
 
 
 
-![avatar](./doc/imges/hot-console.eeui.png)
+![avatar](./imges/hot-console.eeui.png)
 
 <!--
  * @version: v0.0.1

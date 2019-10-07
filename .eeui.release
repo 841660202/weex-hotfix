@@ -1,0 +1,11 @@
+{
+	"appName": "easy demo",
+	"applicationID": "com.eeui.demo",
+	"versionCode": "1",
+	"versionName": "1.0.0",
+	"bundleIdentifier": "com.eeui.demo",
+	"CFBundleVersion": "1",
+	"CFBundleShortVersionString": "1.0.0",
+	"ok": true,
+	"release": "1.0.17"
+}

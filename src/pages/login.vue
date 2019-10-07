@@ -3,12 +3,12 @@
  * @Author: hailong.chen
  * @Date: 2019-10-06 12:12:39
  * @LastEditors: hailong.chen
- * @LastEditTime: 2019-10-07 15:33:18
+ * @LastEditTime: 2019-10-07 16:03:14
  * @Descripttion: 
  -->
 <template>
   <div class='login'>
-    <!-- <text>账号666修复</text> -->
+    <text>账号766修复</text>
     <div class="avatar">
       <image class='avatar-img' src="https://avatars1.githubusercontent.com/u/18305361?s=460&v=4"></image>
     </div>

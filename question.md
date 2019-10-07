@@ -3,7 +3,7 @@
  * @Author: hailong.chen
  * @Date: 2019-10-06 13:40:31
  * @LastEditors: hailong.chen
- * @LastEditTime: 2019-10-07 15:16:40
+ * @LastEditTime: 2019-10-07 15:49:29
  * @Descripttion: 
  -->
 1. 文档错误 text-align:center；写错了
@@ -45,15 +45,13 @@ open ./platforms/android/eeuiApp/app/build/outputs/apk/release/
 # zip -r data.zip dist/*
 ######## 正常更新的命令 ##########
 npm run build
-cd ./common
-mkdir 热更新zip
-cd ./dist
-# 删除旧的压缩包 其实用不到
+cd ./common/dist
+# 删除旧的压缩包
 rm data.zip
 # 压缩新的压缩包
 zip -r data.zip ./*
 # 移动压缩包位置
-mv ./data.zip ../热更新zip/
+mv ./data.zip ../热更新.zip
 open ./
 cd ../
 ######## 正常更新的命令 ##########
